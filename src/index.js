@@ -9,20 +9,20 @@ var z;
 var r;
 var m;
 var s = 0;
-for (j = 0; j<n; j++) {
+  for (j = 0; j<n; j++) {
  
-  z = preferences[j] - 1;
+    z = preferences[j] - 1;
   
-  r = preferences[z] - 1;
+    r = preferences[z] - 1;
  
-  m = preferences[r] - 1;
+    m = preferences[r] - 1;
   
-  if ( j == m){
+    if ( j == m){
     s++
   
-  }
+    }
    
 
-}
-return s/3;
+  }
+return s / 3;
 }
