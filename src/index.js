@@ -17,7 +17,7 @@ for (j = 0; j<n; j++) {
  
   m = preferences[r] - 1;
   
-  if ( j + 1 == m){
+  if ( j == m){
     s++
   
   }
