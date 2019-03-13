@@ -21,5 +21,5 @@ for (j = 0; j<n; j++) {
    
 
 }
-return s;
+return s/3;
 }
